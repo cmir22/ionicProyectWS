@@ -1,0 +1,99 @@
+<!-- HOME INTERFACE-->
+<div id="divHomeInterface">
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense" id="ionHeader">
+      <ion-toolbar>
+        <div style="height: 80px">
+          <ion-title id="titleBar">
+            <h1 id="titleText">Bienvenidos</h1>
+          </ion-title>
+        </div>
+      </ion-toolbar>
+    </ion-header>
+
+    <!-- IMG MONKEY FOR TOP-->
+    <img
+      id="imgMonkey"
+      src="https://firebasestorage.googleapis.com/v0/b/encuestaws.appspot.com/o/Images%20Main%20Screen%2Fmonkey.png?alt=media&token=7be57bc7-d605-4ce6-bcaf-505ee9a63626"
+      alt="happy monkey for kids"
+    />
+    <!-- TEXT ABOUT-->
+    <h1 id="textAbout">
+      Muchas Gracias por estar aqui, para comenzar a llenar tus datos solo da
+      click en continuar.
+    </h1>
+    <!-- BUTTON TO GO NEXT STEP-->
+    <ion-button id="btnContinue" color="success">Continuar</ion-button>
+  </ion-content>
+</div>
+<!-- END HOME INTERFACE-->
+
+<!-- INSTRUCTIONS -->
+<div id="divInstructions">
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense" id="ionHeader">
+      <ion-toolbar>
+        <div style="height: 80px">
+          <ion-title id="titleBarInstructions">
+            <h1 id="titleText">
+              Instrucciones
+            </h1>
+            </ion-title>
+        </div>
+      </ion-toolbar>
+    </ion-header>
+
+    <!-- IMG LOGO CREATE PURPOSE-->
+    <img id="imgLogoInstructions"
+      src="https://firebasestorage.googleapis.com/v0/b/encuestaws.appspot.com/o/Images%20Main%20Screen%2FCPW_Logo.png?alt=media&token=f50d1195-b35b-41c1-81f1-214fbff52fc3"
+      alt="logo icon create purpose"
+    />
+    <!-- TEXT ABOUT-->
+    <h1 id="textAbout">
+      Muchas Gracias por usar nuestra app. estas son las instrucciones 
+      para poder completar el formulario
+    </h1>
+    <!-- BUTTON TO GO NEXT STEP-->
+    <ion-button id="btnStart" color="tertiary">Comenzar</ion-button>
+  </ion-content>
+</div>
+<!-- END INSTRUCTIONS-->
+
+<!-- QUESTIONS -->
+<div id="divCuestions">
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense" id="ionHeader">
+      <ion-toolbar>
+        <div style="height: 80px">
+          <ion-title id="titleBarInstructions">
+            <h1 id="titleText">
+              Preguntas
+            </h1>
+            </ion-title>
+        </div>
+      </ion-toolbar>
+    </ion-header>
+
+    <form id="formPreguntas">
+      <div class="form-group">
+        <h2>Pregunta 1</h2>
+        <input type="text" class="form-control" id="formGroupExampleInput" >
+      </div>
+      <div class="form-group">
+        <h2>Pregunta 2</h2>
+        <input type="text" class="form-control" id="formGroupExampleInput" >
+      </div>
+      <div class="form-group">
+        <h2>Pregunta 3</h2>
+        <input type="text" class="form-control" id="formGroupExampleInput" >
+      </div>
+      <div class="form-group">
+        <h2>Pregunta 4</h2>
+        <input type="text" class="form-control" id="formGroupExampleInput" >
+      </div>
+
+      <ion-button id="btnStart" color="success">Terminar</ion-button>
+    </form>
+  </ion-content>
+</div>
+<!-- END QUESTIONS -->

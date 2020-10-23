@@ -1,0 +1,7 @@
+{
+  "name": "encuestaWs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

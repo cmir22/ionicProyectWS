@@ -1,0 +1,71 @@
+
+#titleText{
+    color: white;
+    font-size: 32px;
+    
+}
+
+#ionHeader{
+    margin-top: -9px;
+    
+}
+
+#titleBar{
+    background-color: #5CB446;
+}
+
+#titleBarInstructions{
+    background-color: #633C88;
+}
+
+
+/* BUTTON FOR CONTINUE FIRST SCREEN*/
+#btnContinue, #btnStart{
+    width: 260px;
+    height: 45px;
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;  
+    font-size: 35px;
+    margin-top: 50px;
+    
+
+}
+
+/* IMAGE  MONKEY*/
+#imgMonkey{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+/* TOP IMG LOGO CREATE PURPOSE INSTRUCTIONS */
+
+#imgLogoInstructions{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-height: 250px;
+    max-width: 50%;;
+}
+
+/* TEXT ABOUT*/
+#textAbout{
+    margin-top: 55px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+/* FORM CUESTIONS */
+
+#formPreguntas{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
